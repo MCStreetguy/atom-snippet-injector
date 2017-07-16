@@ -4,9 +4,6 @@
   "version": "0.1.0",
   "description": "An easy but powerful snippet management tool for Atom editor.",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "snippet-injector:create"
-  },
   "repository": "https://github.com/MCStreetguy/atom-snippet-injector",
   "license": "MIT",
   "engines": {
