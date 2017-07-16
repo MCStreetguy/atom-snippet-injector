@@ -4,6 +4,10 @@
       {
         "label": "Create Snippet from selection",
         "command": "snippet-injector:create"
+      },
+      {
+        "label": "Insert Snippet",
+        "command": "snippet-injector:insert"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Create Snippet from selection",
               "command": "snippet-injector:create"
+            },
+            {
+              "label": "Insert Snippet",
+              "command": "snippet-injector:insert"
             }
           ]
         }
