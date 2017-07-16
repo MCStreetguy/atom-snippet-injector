@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create Snippet from selection",
+        "command": "snippet-injector:create"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "snippet-injector",
+          "submenu": [
+            {
+              "label": "Create Snippet from selection",
+              "command": "snippet-injector:create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+
+}
