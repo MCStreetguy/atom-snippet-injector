@@ -2,12 +2,22 @@
   "context-menu": {
     "atom-text-editor": [
       {
+        "type": "separator"
+      },
+      {
         "label": "Create Snippet from selection",
         "command": "snippet-injector:create"
       },
       {
         "label": "Insert Snippet",
         "command": "snippet-injector:insert"
+      },
+      {
+        "label": "Delete Snippet",
+        "command": "snippet-injector:delete"
+      },
+      {
+        "type": "separator"
       }
     ]
   },
@@ -16,7 +26,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "snippet-injector",
+          "label": "Snippet Injector",
           "submenu": [
             {
               "label": "Create Snippet from selection",
@@ -25,6 +35,10 @@
             {
               "label": "Insert Snippet",
               "command": "snippet-injector:insert"
+            },
+            {
+              "label": "Delete Snippet",
+              "command": "snippet-injector:delete"
             }
           ]
         }
