@@ -28,8 +28,15 @@
 
 #search-prompt {
 
+  .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
   #prompt-list {
     margin-bottom: 20px;
+    max-height: 250px;
+    overflow-y: scroll;
 
     .list-item {
       padding: 10px;
@@ -38,6 +45,10 @@
 
       .value {
         margin: 0;
+      }
+
+      &:first-of-type {
+        border-top: 1px solid grey;
       }
     }
   }
