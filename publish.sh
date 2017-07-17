@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git checkout origin master
+git checkout master
 apm publish "$0"
-git checkout origin dev
+git checkout dev
 
 exit
