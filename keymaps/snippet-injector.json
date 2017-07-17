@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "snippet-injector:create"
+    "ctrl-alt-o": "snippet-injector:create",
+    "ctrl-alt-i": "snippet-injector:insert"
   }
 }
