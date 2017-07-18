@@ -25,7 +25,7 @@ I'll take care of all bugs as soon as possible. Ideas are also appreciated, I'll
 Select the text that you want to store as a snippet.
 Open up the context menu and click on `Create snippet from selection`.
 ![](/screenshots/create_step_1-small.png)
-[(view in full resolution)](https://prntscr.com/fxabhj)
+[ ![](/screenshots/create_step_1-small.png) ](https://prntscr.com/fxabhj)
 
 Enter a useful title for the snippet and confirm.
 *(Bare in mind that you need to recognize your snippet by this title)*
