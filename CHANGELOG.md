@@ -20,6 +20,7 @@
   - Context Menu
   - Main Menu
   - Hotkeys *(partially)*
+- Added icons to snippets for easier recognition in the prompt list
 
 #### Patches
 - Storage directory creation / reading
