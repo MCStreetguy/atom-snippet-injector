@@ -69,8 +69,8 @@ The snippet's content gets inserted.
 
 Open up the context menu and click on `Delete snippet`.
 
-![](/screenshots/delete_step_1-small.png)]
-[(view in full resolution)(https://prntscr.com/fxabyh)
+![](/screenshots/delete_step_1-small.png)
+[](view in full resolution)(https://prntscr.com/fxabyh)
 
 Enter the title of the snippet you want to delete and confirm.
 *(You will be prompted twice before actual deletion. Bare in mind that deleted snippets are gone forever!)*
