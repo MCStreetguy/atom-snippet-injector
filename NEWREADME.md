@@ -22,7 +22,7 @@ I'll take care of all bugs as soon as possible. Ideas are also appreciated, I'll
 
 ## Examples
 
-#### Create
+### Create
 (_[Reference](#commands)_)
 
 Select the text that you want to store as a snippet.
@@ -43,7 +43,7 @@ The snippet is now saved in you local Atom storage.
 ![](/screenshots/create_step_3-small.png)
 [(view in full resolution)](https://prntscr.com/fxabsv)
 
-#### Insert
+### Insert
 (_[Reference](#commands)_)
 
 Place the marker(s) at the position you want you snippet to be inserted.
@@ -64,7 +64,7 @@ The snippet's content gets inserted.
 ![](/screenshots/insert_step_3-small.png)
 [(view in full resolution)](https://prntscr.com/fxacrn)
 
-#### Delete
+### Delete
 (_[Reference](#commands)_)
 
 Open up the context menu and click on `Delete snippet`.
