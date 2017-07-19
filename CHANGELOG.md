@@ -13,7 +13,7 @@
   - Title
   - Tags *(not used currently)*
   - Content
-  - Language *(not used currently)*
+  - Language
 #### Improvements
 - Basic styling of prompts
 - Commands added to:
@@ -26,3 +26,4 @@
 - Storage directory creation / reading
 - Prompt's search didn't work
 - JSON error on snippet saving
+- Error with different path dividers on different OSs

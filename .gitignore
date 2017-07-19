@@ -1,12 +1,3 @@
 .DS_Store
 npm-debug.log
 node_modules
-screenshots/create_step_1.png
-screenshots/create_step_2.png
-screenshots/create_step_3.png
-screenshots/delete_step_1.png
-screenshots/delete_step_2.png
-screenshots/delete_step_3.png
-screenshots/insert_step_1.png
-screenshots/insert_step_2.png
-screenshots/insert_step_3.png
