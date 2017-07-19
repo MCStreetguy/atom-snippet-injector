@@ -4,28 +4,25 @@
 
 ## Examples
 ### Create
-(_[Reference](#commands)_)
+(_[Reference](README.md#commands)_)
 
 Select the text that you want to store as a snippet.
 Open up the context menu and click on `Create snippet from selection`.
 
-![](/screenshots/create_step_1-small.png)
-[(full screenshot)](https://prntscr.com/fxabhj)
+[ ![](/screenshots/create_step_1-small.png) (full screenshot)](https://prntscr.com/fxabhj)
 
 Enter a useful title for the snippet and confirm.
 *(Bare in mind that you need to recognize your snippet by this title)*
 
-![](/screenshots/create_step_2-small.png)
-[(full screenshot)](https://prntscr.com/fxabn6)
+[ ![](/screenshots/create_step_2-small.png) (full screenshot)](https://prntscr.com/fxabn6)
 
 The snippet is now saved in you local Atom storage.
 *A notification tells you about errors and success.*
 
-![](/screenshots/create_step_3-small.png)
-[(full screenshot)](https://prntscr.com/fxabsv)
+[ ![](/screenshots/create_step_3-small.png) (full screenshot)](https://prntscr.com/fxabsv)
 
 ### Insert
-(_[Reference](#commands)_)
+(_[Reference](README.md#commands)_)
 
 Place the marker(s) at the position you want you snippet to be inserted.
 Open up the context menu and click on `Insert snippet`.
@@ -46,7 +43,7 @@ The snippet's content gets inserted.
 [(full screenshot)](https://prntscr.com/fxacrn)
 
 ### Delete
-(_[Reference](#commands)_)
+(_[Reference](README.md#commands)_)
 
 Open up the context menu and click on `Delete snippet`.
 
