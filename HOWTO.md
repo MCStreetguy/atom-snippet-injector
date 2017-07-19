@@ -27,40 +27,34 @@ The snippet is now saved in you local Atom storage.
 Place the marker(s) at the position you want you snippet to be inserted.
 Open up the context menu and click on `Insert snippet`.
 
-![](/screenshots/insert_step_1-small.png)
-[(full screenshot)](https://prntscr.com/fxacde)
+[ ![](/screenshots/insert_step_1-small.png) (full screenshot)](https://prntscr.com/fxacde)
 
 Choose your snippet from the list by clicking it.
 *(If you got a lot of snippets there is a search input box at the top of the prompt window)*
 
-![](/screenshots/insert_step_2-small.png)
-[(full screenshot)](https://prntscr.com/fxacj8)
+[ ![](/screenshots/insert_step_2-small.png) (full screenshot)](https://prntscr.com/fxacj8)
 
 The snippet's content gets inserted.
 *A notification tells you about errors and success.*
 
-![](/screenshots/insert_step_3-small.png)
-[(full screenshot)](https://prntscr.com/fxacrn)
+[ ![](/screenshots/insert_step_3-small.png) (full screenshot)](https://prntscr.com/fxacrn)
 
 ### Delete
 (_[Reference](README.md#commands)_)
 
 Open up the context menu and click on `Delete snippet`.
 
-![](/screenshots/delete_step_1-small.png)
-[(full screenshot)](https://prntscr.com/fxabyh)
+[ ![](/screenshots/delete_step_1-small.png) (full screenshot)](https://prntscr.com/fxabyh)
 
 Enter the title of the snippet you want to delete and confirm.
 *(You will be prompted twice before actual deletion. Bare in mind that deleted snippets are gone forever!)*
 
-![](/screenshots/delete_step_2-small.png)
-[(full screenshot)](https://prntscr.com/fxac6s)
+[ ![](/screenshots/delete_step_2-small.png) (full screenshot)](https://prntscr.com/fxac6s)
 
 The snippet is now deleted from the local Atom storage.
 *A notification tells you about errors and success.*
 
-![](/screenshots/delete_step_3-small.png)
-[(full screenshot)](https://prntscr.com/fxac96)
+[ ![](/screenshots/delete_step_3-small.png) (full screenshot)](https://prntscr.com/fxac96)
 
 
 ---
