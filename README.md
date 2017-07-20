@@ -47,3 +47,17 @@ You will be prompted for the snippet name to delete.
 
 *Name in menus:*
 > "Delete snippet"
+
+
+---
+
+### Externals
+**This package uses the following libraries or contents:**
+
+- DEVICON | *The list icons in the snippet selection prompt use SVG data from DEVICON*
+  - [Icon Source](http://konpa.github.io/devicon/)
+  - [Repository](https://github.com/konpa/devicon/)
+- jQuery
+  - [Webpage](https://jquery.com/)
+  - [NPM](https://www.npmjs.com/package/jquery)
+  - [Repository](https://github.com/jquery/jquery)
