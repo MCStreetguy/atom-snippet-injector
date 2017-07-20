@@ -55,6 +55,7 @@ You will be prompted for the snippet name to delete.
 ```
 All external sources used within this package are subject to their licenses and respective owners.
 ```
+*(abtract taken from [LICENSE.md](LICENSE.md#external-sources))*
 
 **This package uses the following libraries or contents:**
 

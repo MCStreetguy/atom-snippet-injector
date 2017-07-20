@@ -22,3 +22,8 @@ Software or the use or other dealings in the software.***
 
 ---
 *(This is a beautified version of the license. You find the original unformatted text within the `LICENSE` file.)*
+---
+
+### External Sources
+
+**All external sources used within this package are subject to their licenses and respective owners.**
