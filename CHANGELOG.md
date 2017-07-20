@@ -3,6 +3,24 @@
 
 ----------------
 
+## v1.0.0
+**Stable release**
+#### Features
+- Snippet class:
+  - Title
+  - Tags *(not used currently)*
+  - Content
+  - Language
+  - UID
+#### Improvements
+- Performance
+- `LICENSE.md` / `README.md`
+- Icon styling
+#### Patches
+- UID generation
+
+---
+
 ## v0.1.0 ~ v1.0.0
 **Early Development**
 #### Features
@@ -30,3 +48,5 @@
 - JSON error on snippet saving
 - Error with different path dividers on different OSs
 - Icon update when searching prompt list
+
+---
