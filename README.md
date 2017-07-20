@@ -53,6 +53,7 @@ You will be prompted for the snippet name to delete.
 
 ### Externals
 **This package uses the following libraries or contents:**
+All external sources used within this package are subject to their licenses and respective owners.
 
 - DEVICON | *The list icons in the snippet selection prompt use SVG data from DEVICON*
   - [Icon Source](http://konpa.github.io/devicon/)
