@@ -51,8 +51,8 @@ You will be prompted for the snippet name to delete.
 
 ---
 
-### Externals
-All external sources used within this package are subject to their licenses and respective owners.
+### External Sources
+> All external sources used within this package are subject to their licenses and respective owners.
 
 **This package uses the following libraries or contents:**
 
