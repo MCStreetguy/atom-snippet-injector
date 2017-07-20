@@ -52,7 +52,9 @@ You will be prompted for the snippet name to delete.
 ---
 
 ### External Sources
-> All external sources used within this package are subject to their licenses and respective owners.
+```
+All external sources used within this package are subject to their licenses and respective owners.
+```
 
 **This package uses the following libraries or contents:**
 
