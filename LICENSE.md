@@ -21,7 +21,9 @@ Software or the use or other dealings in the software.***
 
 
 ---
+
 *(This is a beautified version of the license. You find the original unformatted text within the `LICENSE` file.)*
+
 ---
 
 ### External Sources
