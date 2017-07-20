@@ -21,9 +21,12 @@
   - Main Menu
   - Hotkeys *(partially)*
 - Added icons to snippets for easier recognition in the prompt list
+- Performance
+- `LICENSE.md` / `README.md` / `HOWTO.md`
 
 #### Patches
 - Storage directory creation / reading
 - Prompt's search didn't work
 - JSON error on snippet saving
 - Error with different path dividers on different OSs
+- Icon update when searching prompt list
