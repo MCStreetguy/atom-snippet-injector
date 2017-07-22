@@ -12,12 +12,18 @@
   - Content
   - Language
   - UID
+  - Version
+- Automated snippet migration to newer version
 #### Improvements
 - Performance
 - `LICENSE.md` / `README.md`
 - Icon styling
+- Delete prompt with list
 #### Patches
 - UID generation
+- Storage fixes for new snippet conventions
+- Version comparison
+- Delete prompt styling
 
 ---
 
