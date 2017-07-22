@@ -3,6 +3,30 @@
 
 ----------------
 
+## v1.0.0
+**Stable release**
+#### Features
+- Snippet class:
+  - Title
+  - Tags *(not used currently)*
+  - Content
+  - Language
+  - UID
+  - Version
+- Automated snippet migration to newer version
+#### Improvements
+- Performance
+- `LICENSE.md` / `README.md`
+- Icon styling
+- Delete prompt with list
+#### Patches
+- UID generation
+- Storage fixes for new snippet conventions
+- Version comparison
+- Delete prompt styling
+
+---
+
 ## v0.1.0 ~ v1.0.0
 **Early Development**
 #### Features
@@ -30,3 +54,5 @@
 - JSON error on snippet saving
 - Error with different path dividers on different OSs
 - Icon update when searching prompt list
+
+---
