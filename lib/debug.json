@@ -10,5 +10,8 @@
     "timings": false,
     "objectLogging": false
   },
-  "usrPref": null
+  "usrPref": {
+    "timings": false,
+    "objectLogging": false
+  }
 }

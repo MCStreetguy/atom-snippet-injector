@@ -7,7 +7,6 @@
 
 #### Features
 - Debug functionalities *(for easier bug reporting)*
-- Edit option added
 #### Improvements
 - Path resolvement
 #### Patches
