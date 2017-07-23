@@ -18,8 +18,8 @@
 **stable release**
 #### Features
 - Snippet class:
-  - + UID
-  - + Version
+  - (+) UID
+  - (+) Version
 - Automated snippet migration to newer version
 #### Improvements
 - Performance
