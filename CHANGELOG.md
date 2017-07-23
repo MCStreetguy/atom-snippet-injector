@@ -1,10 +1,9 @@
-### Please notice ###
-***This Changelog will not be updated properly during early-development.***
+# Changelog
 
-----------------
+-----------
 
 ## v1.1.*
-
+**latest release**
 #### Features
 - Debug functionalities *(for easier bug reporting)*
 #### Improvements
@@ -16,7 +15,7 @@
 ---
 
 ## v1.0.*
-**first stable release**
+**stable release**
 #### Features
 - Snippet class:
   - + UID
@@ -35,8 +34,8 @@
 
 ---
 
-## v0.1.0 ~ v1.0.0
-**Early Development**
+## < v0.7.9
+**early development**
 #### Features
 - Create option added
 - Insert option added
