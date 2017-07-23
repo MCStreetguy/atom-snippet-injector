@@ -1,13 +1,17 @@
 {
   "allowDebug": true,
-  "debug": {
-    "warn":"Snippet Injector launched in Debug-Mode. This will reveal several information about the package here.",
-    "info": "You can safely ignore this since it doesn't change the default package behavior.\nTo disable this outputs, run the 'snippet-injector:toggledebug' command within Atom."
+  "warn": "Snippet Injector launched in Debug-Mode. This will reveal several information about the package here.\n\nYou can safely ignore this since it doesn't change the default package behavior.\nTo disable this outputs, run the 'snippet-injector:toggledebug' command within Atom.",
+  "groupTitle": {
+    "main": "Snippet Injector - DEBUG INFO",
+    "timings": "Method durations",
+    "objectLogging": "Package state"
   },
-  "groupTitle": "Snippet Injector - DEBUG INFO",
   "default": {
     "timings": false,
-    "object-logging": false
+    "objectLogging": false
   },
-  "usrPref": null
+  "usrPref": {
+    "timings": false,
+    "objectLogging": false
+  }
 }
