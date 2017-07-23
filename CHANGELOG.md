@@ -3,22 +3,29 @@
 
 ----------------
 
-## v1.0.0
+## v1.1.0
+
+#### Features
+- Debug functionalities *(for easier bug reporting)*
+#### Improvements
+- Path resolvement
+#### Patches
+- Error while reading stored files
+
+---
+
+## v1.0.0 / v1.0.1
 **Stable release**
 #### Features
 - Snippet class:
-  - Title
-  - Tags *(not used currently)*
-  - Content
-  - Language
-  - UID
-  - Version
+  - + UID
+  - + Version
 - Automated snippet migration to newer version
 #### Improvements
 - Performance
 - `LICENSE.md` / `README.md`
 - Icon styling
-- Delete prompt with list
+- Delete prompt with dropdown-list
 #### Patches
 - UID generation
 - Storage fixes for new snippet conventions

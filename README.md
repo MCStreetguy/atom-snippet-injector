@@ -41,6 +41,29 @@ You will be prompted for the snippet name to delete.
 > "Delete snippet"
 
 
+##### **snippet-injector:toggledebug**
+This command toggles all debugging options for the package.
+Debug informations are logged in Atom's console.
+
+*Please notice that this command is just available through command palette!*
+
+
+##### **snippet-injector:toggle-time-debug**
+This command toggles debugging of function durations.
+Debug informations are logged in Atom's console.
+
+*Name in menus:*
+> "Toggle timing debug"
+
+
+##### **snippet-injector:toggle-object-debug**
+This command toggles debugging of the package state.
+Debug informations are logged in Atom's console.
+
+*Name in menus:*
+> "Toggle object debug"
+
+
 ---
 
 ### External Sources
