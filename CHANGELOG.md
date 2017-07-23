@@ -3,7 +3,7 @@
 
 ----------------
 
-## v1.1.0
+## v1.1.*
 
 #### Features
 - Debug functionalities *(for easier bug reporting)*
@@ -11,11 +11,12 @@
 - Path resolvement
 #### Patches
 - Error while reading stored files
+- Migration even if there were no changes made
 
 ---
 
-## v1.0.0 / v1.0.1
-**Stable release**
+## v1.0.*
+**first stable release**
 #### Features
 - Snippet class:
   - + UID
