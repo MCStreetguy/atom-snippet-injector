@@ -12,14 +12,6 @@ Happy Coding :)
 
 ---
 
-### Please notice!
-This package is currently under developement. There may be major bugs and functionality is not granted!
-Please report all bugs to the issues page of the official Git Repository and provide as much information as possible.
-I'll take care of all bugs as soon as possible. Ideas are also appreciated, I'll add a possibility for that soon.
-
-
----
-
 ## Reference
 
 #### Commands
