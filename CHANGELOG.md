@@ -8,6 +8,9 @@
 - Debug functionalities *(for easier bug reporting)*
 #### Improvements
 - Path resolvement
+- Debug options storing
+- Debug grouping in console
+- Performance
 #### Patches
 - Error while reading stored files
 - Migration even if there were no changes made

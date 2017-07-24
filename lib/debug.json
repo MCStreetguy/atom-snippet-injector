@@ -9,6 +9,5 @@
   "default": {
     "timings": false,
     "objectLogging": false
-  },
-  "usrPref": null
+  }
 }
