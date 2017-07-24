@@ -6,6 +6,8 @@
 **latest release**
 #### Features
 - Debug functionalities *(for easier bug reporting)*
+- Snippet class:
+  - (+) Author
 #### Improvements
 - Path resolvement
 - Debug options storing
@@ -14,6 +16,7 @@
 #### Patches
 - Error while reading stored files
 - Migration even if there were no changes made
+- Debug snippet logging
 
 ---
 
