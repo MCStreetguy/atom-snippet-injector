@@ -34,4 +34,4 @@ They are not associated with this license. This applies to imported sources,
 to contents that are part of the source code and to contents that are not
 authored by the copyright holder. External content that is part of the source
 code is labeled by a comment containing the source's name and uri. Contents that
-are not authored by the copyright holder are located within the `externals/` folder.
+are not authored by the copyright holder are located within the `lib/externals/` folder.
