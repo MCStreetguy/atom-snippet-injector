@@ -17,6 +17,7 @@
 - Error while reading stored files
 - Migration even if there were no changes made
 - Debug snippet logging
+- jQuery module bug
 
 ---
 
