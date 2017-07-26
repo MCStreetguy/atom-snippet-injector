@@ -18,6 +18,7 @@
 - Migration even if there were no changes made
 - Debug snippet logging
 - jQuery module bug
+- Storage bug
 
 ---
 
