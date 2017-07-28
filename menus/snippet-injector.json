@@ -9,6 +9,10 @@
         "command": "snippet-injector:create"
       },
       {
+        "label": "Update existing snippet",
+        "command": "snippet-injector:update"
+      },
+      {
         "label": "Insert Snippet",
         "command": "snippet-injector:insert"
       },
@@ -31,6 +35,10 @@
             {
               "label": "Create Snippet from selection",
               "command": "snippet-injector:create"
+            },
+            {
+              "label": "Update existing snippet",
+              "command": "snippet-injector:update"
             },
             {
               "label": "Insert Snippet",
