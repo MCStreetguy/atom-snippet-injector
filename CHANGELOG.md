@@ -7,6 +7,7 @@
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
+- IMEX module *(Export option)*
 #### Improvements
 - Quick Start Guide enhanced
 - `README.md`
@@ -67,7 +68,7 @@
 - Delete option added
 - Snippet class added with properties:
   - Title
-  - Tags *(not used currently)*
+  - Tags
   - Content
   - Language
 #### Improvements
@@ -75,11 +76,10 @@
 - Commands added to:
   - Context Menu
   - Main Menu
-  - Hotkeys *(partially)*
+  - Hotkeys
 - Added icons to snippets for easier recognition in the prompt list
 - Performance
 - `LICENSE.md` / `README.md` / `HOWTO.md`
-
 #### Patches
 - Storage directory creation / reading
 - Prompt's search didn't work
