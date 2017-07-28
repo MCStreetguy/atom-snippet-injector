@@ -24,6 +24,17 @@ You will be prompted for a snippet title.
 *Name in menus:*
 > "Create snippet from selection"
 
+*Predefined Hotkey:*
+> "Ctrl + Alt + O"
+
+
+##### **snippet-injector:update**
+This command updates an existing snippet's content to the current selection in the current editor.
+You will be prompted for choosing an existing snippet.
+
+*Name in menus:*
+> "Update existing snippet"
+
 
 ##### **snippet-injector:insert**
 This command injects a snippet to the current marker position(s).
@@ -31,6 +42,9 @@ You will be prompted to choose a snippet from a list.
 
 *Name in menus:*
 > "Insert snippet"
+
+*Predefined Hotkey:*
+> "Ctrl + Alt + I"
 
 
 ##### **snippet-injector:delete**
@@ -48,22 +62,6 @@ Debug informations are logged in Atom's console.
 *Please notice that this command is just available through command palette!*
 
 
-##### **snippet-injector:toggle-time-debug**
-This command toggles debugging of function durations.
-Debug informations are logged in Atom's console.
-
-*Name in menus:*
-> "Toggle timing debug"
-
-
-##### **snippet-injector:toggle-object-debug**
-This command toggles debugging of the package state.
-Debug informations are logged in Atom's console.
-
-*Name in menus:*
-> "Toggle object debug"
-
-
 ---
 
 ### External Sources
@@ -75,9 +73,8 @@ All external sources used within this package are subject to their licenses and 
 **This package uses the following libraries or contents:**
 
 - DEVICON | *The list icons in the snippet selection prompt use SVG data from DEVICON*
-  - [Icon Source](http://konpa.github.io/devicon/)
+  - [Webpage](http://konpa.github.io/devicon/)
   - [Repository](https://github.com/konpa/devicon/)
 - jQuery
   - [Webpage](https://jquery.com/)
-  - [NPM](https://www.npmjs.com/package/jquery)
   - [Repository](https://github.com/jquery/jquery)

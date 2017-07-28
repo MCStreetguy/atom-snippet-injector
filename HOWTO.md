@@ -24,7 +24,7 @@ The snippet is now saved in you local Atom storage.
 ### Insert
 (_[Reference](README.md#commands)_)
 
-Place the marker(s) at the position you want you snippet to be inserted.
+Place the marker(s) at the position you want your snippet to be inserted.
 Open up the context menu and click on `Insert snippet`.
 
 [ ![](/screenshots/insert_step_1-small.png) (full screenshot)](http://prntscr.com/fzcyrt)
@@ -46,7 +46,7 @@ Open up the context menu and click on `Delete snippet`.
 
 [ ![](/screenshots/delete_step_1-small.png) (full screenshot)](http://prntscr.com/fzczas)
 
-Enter the title of the snippet you want to delete and confirm.
+Choose the snippet you want to delete from the dropdown-list. Choosing one confirms the prompt automatically.
 *(You will be prompted twice before actual deletion. Bare in mind that deleted snippets are gone forever!)*
 
 [ ![](/screenshots/delete_step_2-small.png) (full screenshot)](http://prntscr.com/fzczf4)

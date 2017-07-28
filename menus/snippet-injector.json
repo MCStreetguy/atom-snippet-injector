@@ -9,6 +9,10 @@
         "command": "snippet-injector:create"
       },
       {
+        "label": "Update existing snippet",
+        "command": "snippet-injector:update"
+      },
+      {
         "label": "Insert Snippet",
         "command": "snippet-injector:insert"
       },
@@ -33,23 +37,16 @@
               "command": "snippet-injector:create"
             },
             {
+              "label": "Update existing snippet",
+              "command": "snippet-injector:update"
+            },
+            {
               "label": "Insert Snippet",
               "command": "snippet-injector:insert"
             },
             {
               "label": "Delete Snippet",
               "command": "snippet-injector:delete"
-            },
-            {
-              "type": "separator"
-            },
-            {
-              "label": "Toggle timing debug",
-              "command": "snippet-injector:toggle-time-debug"
-            },
-            {
-              "label": "Toggle object debug",
-              "command": "snippet-injector:toggle-object-debug"
             }
           ]
         }
