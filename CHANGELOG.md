@@ -7,9 +7,10 @@
 #### Features
 - Snippet tag functionalities
 #### Improvements
--
+
 #### Patches
 - Debug output
+- Search prompt
 
 
 ---
