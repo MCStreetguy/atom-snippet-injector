@@ -6,6 +6,7 @@
 **latest release**
 #### Features
 - Snippet tag functionalities
+- Edit option for snippets
 #### Improvements
 - Quick Start Guide enhanced
 #### Patches

@@ -28,6 +28,14 @@ You will be prompted for a snippet title.
 > "Ctrl + Alt + O"
 
 
+##### **snippet-injector:update**
+This command updates an existing snippet's content to the current selection in the current editor.
+You will be prompted for choosing an existing snippet.
+
+*Name in menus:*
+> "Update existing snippet"
+
+
 ##### **snippet-injector:insert**
 This command injects a snippet to the current marker position(s).
 You will be prompted to choose a snippet from a list.
@@ -65,9 +73,8 @@ All external sources used within this package are subject to their licenses and 
 **This package uses the following libraries or contents:**
 
 - DEVICON | *The list icons in the snippet selection prompt use SVG data from DEVICON*
-  - [Icon Source](http://konpa.github.io/devicon/)
+  - [Webpage](http://konpa.github.io/devicon/)
   - [Repository](https://github.com/konpa/devicon/)
 - jQuery
   - [Webpage](https://jquery.com/)
-  - [NPM](https://www.npmjs.com/package/jquery)
   - [Repository](https://github.com/jquery/jquery)
