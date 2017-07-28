@@ -1,26 +1,48 @@
 {
-  "export": {
-    "csv": {
-      "labels": [
-        "Title",
-        "Author",
-        "Content",
-        "Language",
-        "Tags",
-        "created with version"
-      ],
-      "order": [
-        "title",
-        "author",
-        "content",
-        "lang",
-        "tags",
-        "version"
-      ],
-      "divider": {
-        "field": ";",
-        "line": "\n"
+  "csv": {
+    "labels": [
+      "Title",
+      "Author",
+      "Content",
+      "Language",
+      "Tags",
+      "created with version"
+    ],
+    "order": [
+      "title",
+      "author",
+      "content",
+      "lang",
+      "tags",
+      "version"
+    ],
+    "convert": [
+      {
+        "type": "replace",
+        "name": "content",
+        "search": "\n",
+        "replace": "[LF]"
+      },
+      {
+        "type": "replace",
+        "name": "content",
+        "search": "\r",
+        "replace": "[CR]"
+      },
+      {
+        "type": "replace",
+        "name": "content",
+        "search": ";",
+        "replace": "[SC]"
+      },
+      {
+        "type": "json",
+        "name": "tags"
       }
+    ],
+    "divider": {
+      "field": ";",
+      "line": "\n"
     }
   }
 }
