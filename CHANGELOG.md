@@ -7,10 +7,11 @@
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
-- IMEX module *(Export option)*
+- IMEX module *(Import & Export options)*
 #### Improvements
 - Quick Start Guide enhanced
 - `README.md`
+- IMEX module config
 #### Patches
 - Debug output
 - Available debug commands reduced

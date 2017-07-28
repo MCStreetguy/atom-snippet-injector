@@ -1,5 +1,10 @@
-{
-  "csv": {
+[
+  {
+    "name": "csv",
+    "dialogOptions": {
+      "name": "CSV File",
+      "extensions": ["csv"]
+    },
     "labels": [
       "Title",
       "Author",
@@ -45,4 +50,4 @@
       "line": "\n"
     }
   }
-}
+]
