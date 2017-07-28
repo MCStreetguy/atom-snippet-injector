@@ -52,13 +52,17 @@
               "type": "separator"
             },
             {
-              "label": "Export",
+              "label": "Export Snippets",
               "submenu": [
                 {
                   "label": "CSV",
                   "command": "snippet-injector:export-to-csv"
                 }
               ]
+            },
+            {
+              "label": "Import Snippets",
+              "command": "snippet-injector:import"
             }
           ]
         }
