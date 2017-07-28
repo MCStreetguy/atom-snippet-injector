@@ -2,8 +2,21 @@
 
 -----------
 
-## v1.1.*
+## v1.2.*
 **latest release**
+#### Features
+- Snippet tag functionalities
+#### Improvements
+
+#### Patches
+- Debug output
+- Search prompt
+
+
+---
+
+## v1.1.*
+**stable release**
 #### Features
 - Debug functionalities *(for easier bug reporting)*
 - Snippet class:
@@ -18,11 +31,13 @@
 - Migration even if there were no changes made
 - Debug snippet logging
 - jQuery module bug
+- Storage bug
+
 
 ---
 
 ## v1.0.*
-**stable release**
+
 #### Features
 - Snippet class:
   - (+) UID
