@@ -39,17 +39,6 @@
             {
               "label": "Delete Snippet",
               "command": "snippet-injector:delete"
-            },
-            {
-              "type": "separator"
-            },
-            {
-              "label": "Toggle timing debug",
-              "command": "snippet-injector:toggle-time-debug"
-            },
-            {
-              "label": "Toggle object debug",
-              "command": "snippet-injector:toggle-object-debug"
             }
           ]
         }

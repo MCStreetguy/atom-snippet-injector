@@ -24,6 +24,9 @@ You will be prompted for a snippet title.
 *Name in menus:*
 > "Create snippet from selection"
 
+*Predefined Hotkey:*
+> "Ctrl + Alt + O"
+
 
 ##### **snippet-injector:insert**
 This command injects a snippet to the current marker position(s).
@@ -31,6 +34,9 @@ You will be prompted to choose a snippet from a list.
 
 *Name in menus:*
 > "Insert snippet"
+
+*Predefined Hotkey:*
+> "Ctrl + Alt + I"
 
 
 ##### **snippet-injector:delete**
@@ -46,22 +52,6 @@ This command toggles all debugging options for the package.
 Debug informations are logged in Atom's console.
 
 *Please notice that this command is just available through command palette!*
-
-
-##### **snippet-injector:toggle-time-debug**
-This command toggles debugging of function durations.
-Debug informations are logged in Atom's console.
-
-*Name in menus:*
-> "Toggle timing debug"
-
-
-##### **snippet-injector:toggle-object-debug**
-This command toggles debugging of the package state.
-Debug informations are logged in Atom's console.
-
-*Name in menus:*
-> "Toggle object debug"
 
 
 ---

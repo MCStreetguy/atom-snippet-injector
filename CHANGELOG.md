@@ -10,6 +10,7 @@
 - Quick Start Guide enhanced
 #### Patches
 - Debug output
+- Available debug commands reduced
 - Search prompt
 
 
