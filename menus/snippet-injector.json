@@ -47,6 +47,18 @@
             {
               "label": "Delete Snippet",
               "command": "snippet-injector:delete"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "Export",
+              "submenu": [
+                {
+                  "label": "CSV",
+                  "command": "snippet-injector:export-to-csv"
+                }
+              ]
             }
           ]
         }
