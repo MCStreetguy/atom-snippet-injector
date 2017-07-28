@@ -7,7 +7,7 @@
 #### Features
 - Snippet tag functionalities
 #### Improvements
-
+- Quick Start Guide enhanced
 #### Patches
 - Debug output
 - Search prompt
