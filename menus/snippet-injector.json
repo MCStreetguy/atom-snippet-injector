@@ -56,7 +56,7 @@
               "submenu": [
                 {
                   "label": "CSV",
-                  "command": "snippet-injector:export"
+                  "command": "snippet-injector:export-to-csv"
                 }
               ]
             }

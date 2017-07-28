@@ -18,7 +18,7 @@
         "version"
       ],
       "divider": {
-        "field": ",",
+        "field": ";",
         "line": "\n"
       }
     }
