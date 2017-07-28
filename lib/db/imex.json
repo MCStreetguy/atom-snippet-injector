@@ -1,0 +1,26 @@
+{
+  "export": {
+    "csv": {
+      "labels": [
+        "Title",
+        "Author",
+        "Content",
+        "Language",
+        "Tags",
+        "created with version"
+      ],
+      "order": [
+        "title",
+        "author",
+        "content",
+        "lang",
+        "tags",
+        "version"
+      ],
+      "divider": {
+        "field": ",",
+        "line": "\n"
+      }
+    }
+  }
+}
