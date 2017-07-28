@@ -9,6 +9,7 @@
 - Edit option for snippets
 #### Improvements
 - Quick Start Guide enhanced
+- `README.md`
 #### Patches
 - Debug output
 - Available debug commands reduced
