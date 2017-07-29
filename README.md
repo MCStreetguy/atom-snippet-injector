@@ -15,7 +15,8 @@ Happy Coding :)
 ## Reference
 
 #### Commands
-There are basically three commands snippet-injector ships with:
+The following commands are registered by Snippet Injector and can be accessed via the command palette.
+If stated, the commands can also be called through menus or via hotkey.
 
 ##### **snippet-injector:create**
 This command creates a new snippet from the current selection in the current editor.
