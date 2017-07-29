@@ -7,8 +7,8 @@
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
-- IMEX module: *(Import & Export options)*
-  - CSV *Simple spreadsheet format* [importable]
+- IMEX module: *(Import & Export)*
+  - CSV ~ *Simple spreadsheet format* `importable`
 #### Improvements
 - Quick Start Guide enhanced
 - `README.md`
