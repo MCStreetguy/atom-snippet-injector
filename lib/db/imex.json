@@ -1,6 +1,7 @@
 [
   {
     "name": "csv",
+    "importable": true,
     "dialogOptions": {
       "name": "CSV File",
       "extensions": ["csv"]
