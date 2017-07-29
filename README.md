@@ -27,6 +27,7 @@ You will be prompted for a snippet title.
 *Predefined Hotkey:*
 > "Ctrl + Alt + O"
 
+---
 
 ##### **snippet-injector:update**
 This command updates an existing snippet's content to the current selection in the current editor.
@@ -35,6 +36,7 @@ You will be prompted for choosing an existing snippet.
 *Name in menus:*
 > "Update existing snippet"
 
+---
 
 ##### **snippet-injector:insert**
 This command injects a snippet to the current marker position(s).
@@ -46,6 +48,7 @@ You will be prompted to choose a snippet from a list.
 *Predefined Hotkey:*
 > "Ctrl + Alt + I"
 
+---
 
 ##### **snippet-injector:delete**
 This command deletes a snippet from the local storage.
@@ -54,6 +57,7 @@ You will be prompted for the snippet name to delete.
 *Name in menus:*
 > "Delete snippet"
 
+---
 
 ##### **snippet-injector:toggledebug**
 This command toggles all debugging options for the package.
