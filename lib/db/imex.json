@@ -6,6 +6,7 @@
       "name": "CSV File",
       "extensions": ["csv"]
     },
+    "labeling": "headline",
     "labels": [
       "Title",
       "Author",
@@ -49,6 +50,33 @@
     "divider": {
       "field": ";",
       "line": "\n"
+    }
+  },
+  {
+    "name": "md",
+    "importable": false,
+    "dialogOptions": {
+      "name": "Markdown",
+      "extensions": ["md"]
+    },
+    "labeling": "inline",
+    "labels": [
+      {"prefix":"## ","suffix":""},
+      {"prefix":"**by ","suffix":"**"},
+      {"prefix":"```\n","suffix":"```"},
+      {"prefix":"*written in* ","suffix":""},
+      {"prefix":"Tags:","suffix":""}
+    ],
+    "order": [
+      "title",
+      "author",
+      "content",
+      "lang",
+      "tags"
+    ],
+    "divider": {
+      "field": "\n",
+      "line": "\n\n---\n\n"
     }
   }
 ]

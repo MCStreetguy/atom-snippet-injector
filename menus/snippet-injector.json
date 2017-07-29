@@ -55,8 +55,12 @@
               "label": "Export Snippets",
               "submenu": [
                 {
-                  "label": "CSV",
+                  "label": "Spreadsheet",
                   "command": "snippet-injector:export-to-csv"
+                },
+                {
+                  "label": "Markdown",
+                  "command": "snippet-injector:export-to-md"
                 }
               ]
             },
