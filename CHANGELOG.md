@@ -13,6 +13,7 @@
 - Quick Start Guide enhanced
 - `README.md`
 - IMEX module configuration
+- Auto-set Editor grammar when inserting into new file
 #### Patches
 - Debug output
 - Available debug commands reduced
