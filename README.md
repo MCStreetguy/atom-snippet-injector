@@ -1,5 +1,6 @@
 # Atom Snippet Injector
 **An easy but powerful snippet management tool for Atom editor.**
+
 This atom package provides a JSON based snippet management.
 
 *But why use this package* you ask?
@@ -7,7 +8,7 @@ This atom package provides a JSON based snippet management.
 Because you can reach every feature in more or less three steps.
 
 It's easy and fast so you don't have to struggle with difficult UI's or file syntaxes or even worse, writing the snippets manually.
-Check out the [Quick Start Guide](HOWTO.md#examples) for more instructions on how to use this package.
+Check out the [Quick Start Guide](HOWTO.md#using-the-snippet-injector) for short instructions on how to use this package.
 Happy Coding :)
 
 ---
@@ -73,7 +74,7 @@ This command imports previously exported data from an importable file format.
 The format is recognized automatically, the contained data gets parsed
 and the resulting snippets will be stored simultaneously.
 
-Since this command is part of the IMEX module, I recommend usage via main menu.
+Since this command is part of the [IMEX module](HOWTO.md#using-the-imex-module), I recommend usage via main menu.
 
 *Name in menus:*
 > "Import Snippets"
@@ -84,7 +85,7 @@ Since this command is part of the IMEX module, I recommend usage via main menu.
 This command exports the local storage in the given file format.
 All snippets get parsed, based on the specific configuration and then are written into a user chosen file.
 
-Since this command is part of the IMEX module, I recommend usage via main menu.
+Since this command is part of the [IMEX module](HOWTO.md#using-the-imex-module), I recommend usage via main menu.
 
 ###### available formats:
 
