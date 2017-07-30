@@ -94,7 +94,7 @@ Since this command is part of the IMEX module, I recommend usage via main menu.
 | Markdown | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
 
 *Name in menus:*
-> "Export Snippets  ->  FORMAT"
+> "Export Snippets  ->  ..."
 
 
 ---
