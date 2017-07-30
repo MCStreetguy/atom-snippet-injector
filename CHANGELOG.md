@@ -12,7 +12,7 @@
   - .MD ~ Markdown file `unimportable`
 #### Improvements
 - Quick Start Guide enhanced
-- `README.md`
+- `README.md` / `HOWTO.md`
 - IMEX module configuration
 - Auto-set Editor grammar when inserting into new file
 #### Patches
