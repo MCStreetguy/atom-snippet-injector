@@ -1,7 +1,7 @@
 {
   "name": "snippet-injector",
   "main": "./lib/snippet-injector",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "An easy but powerful snippet management tool for Atom editor.",
   "keywords": [
     "snippets",
