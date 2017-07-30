@@ -19,6 +19,7 @@
 - Debug output
 - Available debug commands reduced
 - Search prompt
+- IMEX module cancel bug
 
 
 ---
