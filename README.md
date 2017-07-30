@@ -66,6 +66,36 @@ Debug informations are logged in Atom's console.
 
 *Please notice that this command is just available through command palette!*
 
+---
+
+##### **snippet-injector:import**
+This command imports previously exported data from an importable file format.
+The format is recognized automatically, the contained data gets parsed
+and the resulting snippets will be stored simultaneously.
+
+Since this command is part of the IMEX module, I recommend usage via main menu.
+
+*Name in menus:*
+> "Import Snippets"
+
+---
+
+##### **snippet-injector:export-to-FORMAT**
+This command exports the local storage in the given file format.
+All snippets get parsed, based on the specific configuration and then are written into a user chosen file.
+
+Since this command is part of the IMEX module, I recommend usage via main menu.
+
+**available formats:**
+
+| Format   | Extension | Command                        | Importable | add. Infos                                 |
+|---------:|-----------|--------------------------------|:----------:|--------------------------------------------|
+| CSV      | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy. Use it as recovery. |
+| Markdown | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
+
+*Name in menus:*
+> "Export Snippets  ->  FORMAT"
+
 
 ---
 
