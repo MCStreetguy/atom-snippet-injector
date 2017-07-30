@@ -72,7 +72,7 @@ To access it, open the `Packages` menu and navigate down to the submenu
 (_[Reference](README.md#commands)_)
 
 To export your snippets, open the named submenu `Export Snippets` and
-select a format of your choise. (All available formatting options can be found [here](README.md#snippet-injectorexport-to-))
+select a format of your choise. (All available formatting options can be found [here](README.md#snippet-injectorexport-to-)).
 Afterwards you will be prompted for a saving location and the file will be stored there.
 
 ### Importing
