@@ -80,7 +80,7 @@ Since this command is part of the IMEX module, I recommend usage via main menu.
 
 ---
 
-#### **snippet-injector:export-to-FORMAT**
+#### **snippet-injector:export-to-...**
 This command exports the local storage in the given file format.
 All snippets get parsed, based on the specific configuration and then are written into a user chosen file.
 
