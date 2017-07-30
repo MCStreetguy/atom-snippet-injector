@@ -14,11 +14,11 @@ Happy Coding :)
 
 ## Reference
 
-#### Commands
+### Commands
 The following commands are registered by Snippet Injector and can be accessed via the command palette.
 If stated, the commands can also be called through menus or via hotkey.
 
-##### **snippet-injector:create**
+#### **snippet-injector:create**
 This command creates a new snippet from the current selection in the current editor.
 You will be prompted for a snippet title.
 
@@ -30,7 +30,7 @@ You will be prompted for a snippet title.
 
 ---
 
-##### **snippet-injector:update**
+#### **snippet-injector:update**
 This command updates an existing snippet's content to the current selection in the current editor.
 You will be prompted for choosing an existing snippet.
 
@@ -39,7 +39,7 @@ You will be prompted for choosing an existing snippet.
 
 ---
 
-##### **snippet-injector:insert**
+#### **snippet-injector:insert**
 This command injects a snippet to the current marker position(s).
 You will be prompted to choose a snippet from a list.
 
@@ -51,7 +51,7 @@ You will be prompted to choose a snippet from a list.
 
 ---
 
-##### **snippet-injector:delete**
+#### **snippet-injector:delete**
 This command deletes a snippet from the local storage.
 You will be prompted for the snippet name to delete.
 
@@ -60,7 +60,7 @@ You will be prompted for the snippet name to delete.
 
 ---
 
-##### **snippet-injector:toggledebug**
+#### **snippet-injector:toggledebug**
 This command toggles all debugging options for the package.
 Debug informations are logged in Atom's console.
 
@@ -68,7 +68,7 @@ Debug informations are logged in Atom's console.
 
 ---
 
-##### **snippet-injector:import**
+#### **snippet-injector:import**
 This command imports previously exported data from an importable file format.
 The format is recognized automatically, the contained data gets parsed
 and the resulting snippets will be stored simultaneously.
@@ -80,22 +80,24 @@ Since this command is part of the IMEX module, I recommend usage via main menu.
 
 ---
 
-##### **snippet-injector:export-to-FORMAT**
+#### **snippet-injector:export-to-FORMAT**
 This command exports the local storage in the given file format.
 All snippets get parsed, based on the specific configuration and then are written into a user chosen file.
 
 Since this command is part of the IMEX module, I recommend usage via main menu.
 
-**available formats:**
+###### available formats:
 
-| Format   | Extension | Command                        | Importable | add. Infos                                 |
+| Format   | Extension | Command                        | Importable | additional Infos                           |
 |---------:|-----------|--------------------------------|:----------:|--------------------------------------------|
-| CSV      | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy. Use it as recovery. |
+| CSV      | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy, use it as recovery  |
 | Markdown | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
 
 *Name in menus:*
 > "Export Snippets  ->  FORMAT"
 
+
+---
 
 ---
 
