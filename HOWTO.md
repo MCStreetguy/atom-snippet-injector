@@ -2,7 +2,8 @@
 
 ---
 
-## Examples
+## Using the snippet-injector
+
 ### Create
 (_[Reference](README.md#commands)_)
 
@@ -58,3 +59,33 @@ The snippet is now deleted from the local Atom storage.
 
 
 ---
+
+## Using the IMEX module
+
+The IMEX (shorthand for 'IMport and EXport') module provides import and export
+functionalities. It ships with several format configurations and parsing methods.
+To access it, open the `Packages` menu and navigate down to the submenu
+`Snippet Injector`. There you should find the options `Import Snippets` and
+`Export Snippets` (which is a submenu).
+
+### Exporting
+(_[Reference](README.md#commands)_)
+
+To export your snippets, open the named submenu `Export Snippets` and
+select a format of your choise. (All available formatting options can be found [here](README.md#snippet-injectorexport-to-))
+Afterwards you will be prompted for a saving location and the file will be stored there.
+
+### Importing
+(_[Reference](README.md#commands)_)
+
+To import previously exported data, select the `Import Snippets` option in the menu.
+You will be prompted for a file to import from. The format is recognized automatically,
+the file contents get parsed accordingly and are stored as new snippets.
+
+
+### Please notice!
+If you want to import data back later on, make sure you choose a format
+that is stated as "importable" and **_not for a moment_ touch the file contents!**
+The IMEX module does not recognize invalid data and will parse everything within
+the given file. This may result in Fatal Errors or broken snippets.
+> *Don't complain later, I told you so...*
