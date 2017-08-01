@@ -15,11 +15,13 @@
 - `README.md` / `HOWTO.md`
 - IMEX module configuration
 - Auto-set Editor grammar when inserting into new file
+- Filesystem error treatment
 #### Patches
 - Debug output
 - Available debug commands reduced
-- Search prompt
+- Search bug
 - IMEX module cancel bug
+- Search prompt event handling
 
 
 ---
