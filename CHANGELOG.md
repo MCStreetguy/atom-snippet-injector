@@ -1,4 +1,7 @@
 # Changelog
+Snippet Injector follows the [npm versioning standard](https://docs.npmjs.com/getting-started/semantic-versioning).
+**Please notice** that the subsections below version-headlines are intended to structure the changes.
+They do not represent the "major", "minor" and "patch" version-parts. Those are stated within the headlines.
 
 -----------
 
