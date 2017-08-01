@@ -6,9 +6,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 -----------
 
 ## v1.2.*
-**latest release**
-
-**stable release**
+**latest release**, **stable release**
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
