@@ -71,7 +71,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 ---
 
 ## < v0.7.9
-**early development**
+**pre-releases**
 #### Features
 - Create option added
 - Insert option added
