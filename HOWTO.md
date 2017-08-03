@@ -45,6 +45,8 @@ The snippet's content gets inserted.
 **Please notice** that this command overrides snippet contents, ignoring if there is any relation between the old and new content.
 It may occur that you damage snippets so be careful with this option. I recommend inserting the snippet in a new EditorPane before editing.
 
+
+
 Select the updated content of one snippet.
 Open the context menu and click on `Update existing snippet`.
 [ ![](/wiki/update_step_1-small.png) (full screenshot)](http://prntscr.com/g3yl1v)
