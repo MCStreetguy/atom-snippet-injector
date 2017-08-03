@@ -38,6 +38,9 @@ You will be prompted for choosing an existing snippet.
 *Name in menus:*
 > "Update existing snippet"
 
+*Predefined Hotkey:*
+> "Ctrl + Alt + U"
+
 ---
 
 #### **snippet-injector:insert**
