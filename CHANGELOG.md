@@ -5,14 +5,27 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 
 -----------
 
+## v1.3.*
+**latest release**
+#### Features
+- Snippet Stats
+#### Improvements
+- Sorting snippets by usage count
+- Performance
+#### Patches
+-
+
+
+---
+
 ## v1.2.*
-**latest release**, **stable release**
+**stable release**
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
 - IMEX module: *(Import & Export)*
-  - .CSV ~ Simple spreadsheet format `importable`
-  - .MD ~ Markdown file `unimportable`
+  - .CSV ~ Spreadsheet file
+  - .MD ~ Markdown file
 #### Improvements
 - Quick Start Guide enhanced
 - `README.md` / `HOWTO.md`
