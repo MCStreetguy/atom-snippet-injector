@@ -6,7 +6,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 -----------
 
 ## v1.2.*
-**latest release**
+**latest release**, **stable release**
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
@@ -30,7 +30,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 ---
 
 ## v1.1.*
-**stable release**
+
 #### Features
 - Debug functionalities *(for easier bug reporting)*
 - Snippet class:
@@ -71,7 +71,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 ---
 
 ## < v0.7.9
-**early development**
+**pre-releases**
 #### Features
 - Create option added
 - Insert option added
