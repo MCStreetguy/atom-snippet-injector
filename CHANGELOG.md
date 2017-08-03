@@ -25,6 +25,7 @@ They do not represent the "major", "minor" and "patch" version-parts. Those are 
 - Search bug
 - IMEX module cancel bug
 - Search prompt event handling
+- Backup directory bug
 
 
 ---
