@@ -48,13 +48,16 @@ It may occur that you damage snippets so be careful with this option. I recommen
 
 Select the updated content of one snippet.
 Open the context menu and click on `Update existing snippet`.
+
 [ ![](/wiki/update_step_1-small.png) (full screenshot)](http://prntscr.com/g3yl1v)
 
 Choose the snippet you want to update. *(This is the same prompt used for insertion)*
+
 [ ![](/wiki/update_step_2-small.png) (full screenshot)](http://prntscr.com/g3ylan)
 
 The snippet's content is now updated to whatever you selected.
 *A notification tells you about errors and success.*
+
 [ ![](/wiki/update_step_3-small.png) (full screenshot)](http://prntscr.com/g3ylm2)
 
 ### Delete
