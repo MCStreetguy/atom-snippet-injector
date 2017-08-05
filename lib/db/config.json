@@ -1,0 +1,6 @@
+{
+  "test": {
+    "type": "boolean",
+    "default": true
+  }
+}
