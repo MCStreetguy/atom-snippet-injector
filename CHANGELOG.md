@@ -5,32 +5,39 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 
 ## v1.3.*
 **latest release**
+
 #### Features
 - Snippet Stats
 - Package config
+- renewed Storage module
+
 #### Improvements
 - Sorting snippets by usage count
-- Performance
+- major performance improvement
+
 #### Patches
--
+- smaller bugfixes
 
 
 ---
 
 ## v1.2.*
 **stable release**
+
 #### Features
 - Snippet tag functionalities
 - Edit option for snippets
 - IMEX module: *(Import & Export)*
   - .CSV ~ Spreadsheet file
   - .MD ~ Markdown file
+
 #### Improvements
 - Quick Start Guide enhanced
 - `README.md` / `HOWTO.md`
 - IMEX module configuration
 - Auto-set Editor grammar when inserting into new file
 - Filesystem error treatment
+
 #### Patches
 - Debug output
 - Available debug commands reduced
@@ -48,11 +55,13 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 - Debug functionalities *(for easier bug reporting)*
 - Snippet class:
   - (+) Author
+
 #### Improvements
 - Path resolvement
 - Debug options storing
 - Debug grouping in console
 - Performance
+
 #### Patches
 - Error while reading stored files
 - Migration even if there were no changes made
@@ -70,11 +79,13 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
   - (+) UID
   - (+) Version
 - Automated snippet migration to newer version
+
 #### Improvements
 - Performance
 - `LICENSE.md` / `README.md`
 - Icon styling
 - Delete prompt with dropdown-list
+
 #### Patches
 - UID generation
 - Storage fixes for new snippet conventions
@@ -85,6 +96,7 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 
 ## < v0.7.9
 **pre-releases**
+
 #### Features
 - Create option added
 - Insert option added
@@ -94,6 +106,7 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
   - Tags
   - Content
   - Language
+
 #### Improvements
 - Basic styling of prompts
 - Commands added to:
@@ -103,6 +116,7 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 - Added icons to snippets for easier recognition in the prompt list
 - Performance
 - `LICENSE.md` / `README.md` / `HOWTO.md`
+
 #### Patches
 - Storage directory creation / reading
 - Prompt's search didn't work
