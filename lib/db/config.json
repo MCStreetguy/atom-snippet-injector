@@ -1,6 +1,11 @@
 {
-  "test": {
+  "storageDirectory": {
+    "type": "string",
+    "default": ".atom/storage/snippet-injector/snippets/",
+    "description": "Relative paths are resolved in relation to your homedir (`~/`)"
+  },
+  "enableDebugging": {
     "type": "boolean",
-    "default": true
+    "default": false
   }
 }
