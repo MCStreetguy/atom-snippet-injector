@@ -7,6 +7,7 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 **latest release**
 #### Features
 - Snippet Stats
+- Package config
 #### Improvements
 - Sorting snippets by usage count
 - Performance
