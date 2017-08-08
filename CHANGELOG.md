@@ -19,6 +19,7 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 #### Patches
 - smaller bugfixes
 - Cleaned up code corpses
+- coding conventions
 
 
 ---
