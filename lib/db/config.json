@@ -9,10 +9,10 @@
   "autosaveInterval": {
     "type": "integer",
     "default": 600,
-    "minimum": 0,
+    "minimum": 59,
     "maximum": 3600,
     "title": "Autosave Interval (in seconds)",
-    "description": "Small numbers can impact Atoms performance. Set to 0 to disable autosave. (not recommended since this prevents data loss)",
+    "description": "Small values can impact Atom's performance. Values below 60 disable autosave. (not recommended since this prevents data loss)",
     "order": 2
   },
   "enableDebugging": {
