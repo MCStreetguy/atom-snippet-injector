@@ -14,8 +14,8 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 #### Improvements
 - Sorting snippets by usage count
 - major performance improvement
-- asynchroneous execution (where possible)
-- Snippet class methods
+- asynchroneous execution
+- Snippet class methods enhanced
 
 #### Patches
 - smaller bugfixes

@@ -2,10 +2,22 @@
   "storageDirectory": {
     "type": "string",
     "default": ".atom/storage/snippet-injector/snippets/",
-    "description": "Relative paths are resolved in relation to your homedir (`~/`)"
+    "title": "Storage Directory",
+    "description": "Relative paths are resolved in relation to your homedir (`~/`)",
+    "order": 1
+  },
+  "autosaveInterval": {
+    "type": "integer",
+    "default": 600,
+    "minimum": 0,
+    "maximum": 3600,
+    "title": "Autosave Interval (in seconds)",
+    "description": "Small numbers can impact Atoms performance. Set to 0 to disable autosave. (not recommended since this prevents data loss)",
+    "order": 2
   },
   "enableDebugging": {
     "type": "boolean",
-    "default": false
+    "default": false,
+    "order": 3
   }
 }
