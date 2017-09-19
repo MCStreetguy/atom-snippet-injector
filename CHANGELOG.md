@@ -1,10 +1,22 @@
 # Changelog
-Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.com/getting-started/semantic-versioning).
 
 -----------
 
+## v1.4.*
+
+#### Features
+- Atom snippets synchronization
+
+#### Improvements
+- Temporarily disabled Imex module
+
+#### Patches
+- Storage delete fix
+
+
+---
+
 ## v1.3.*
-**latest release**
 
 #### Features
 - Snippet Stats
@@ -28,7 +40,6 @@ Snippet Injector follows the [semantic versioning standard](https://docs.npmjs.c
 ---
 
 ## v1.2.*
-**stable release**
 
 #### Features
 - Snippet tag functionalities
