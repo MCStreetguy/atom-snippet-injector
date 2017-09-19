@@ -6,12 +6,17 @@
 
 #### Features
 - Atom snippets synchronization
+- Renewed Storage module
+- Package config
 
 #### Improvements
 - Temporarily disabled Imex module
+- asynchroneous execution
+- configurable autosaving
 
 #### Patches
 - Storage delete fix
+- cleaned up code corpses
 
 
 ---
@@ -21,19 +26,15 @@
 #### Features
 - Snippet Stats
 - Package config
-- renewed Storage module
 
 #### Improvements
 - Sorting snippets by usage count
 - major performance improvement
-- asynchroneous execution
 - Snippet class methods enhanced
-- configurable autosaving
 - more significant notifications
 
 #### Patches
 - smaller bugfixes
-- cleaned up code corpses
 - coding conventions
 
 
