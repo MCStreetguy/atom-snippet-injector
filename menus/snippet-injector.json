@@ -47,26 +47,6 @@
             {
               "label": "Delete Snippet",
               "command": "snippet-injector:delete"
-            },
-            {
-              "type": "separator"
-            },
-            {
-              "label": "Export Snippets",
-              "submenu": [
-                {
-                  "label": "Spreadsheet",
-                  "command": "snippet-injector:export-to-csv"
-                },
-                {
-                  "label": "Markdown",
-                  "command": "snippet-injector:export-to-md"
-                }
-              ]
-            },
-            {
-              "label": "Import Snippets",
-              "command": "snippet-injector:import"
             }
           ]
         }
