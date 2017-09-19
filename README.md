@@ -38,6 +38,9 @@ You will be prompted for choosing an existing snippet.
 *Name in menus:*
 > "Update existing snippet"
 
+*Predefined Hotkey:*
+> "Ctrl + Alt + U"
+
 ---
 
 #### **snippet-injector:insert**
@@ -89,10 +92,10 @@ Since this command is part of the [IMEX module](HOWTO.md#using-the-imex-module),
 
 ###### available formats:
 
-| Format   | Extension | Command                        | Importable | additional Infos                           |
-|---------:|-----------|--------------------------------|:----------:|--------------------------------------------|
-| CSV      | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy, use it as recovery  |
-| Markdown | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
+| Format      | Extension | Command                        | Importable | additional Infos                           |
+|------------:|-----------|--------------------------------|:----------:|--------------------------------------------|
+| Spreadsheet | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy, use it as recovery  |
+| Markdown    | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
 
 *Name in menus:*
 > "Export Snippets  ->  ..."
