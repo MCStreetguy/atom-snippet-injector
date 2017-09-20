@@ -11,12 +11,13 @@
 
 #### Improvements
 - Temporarily disabled Imex module
-- asynchroneous execution
-- configurable autosaving
+- Partially asynchroneous execution
+- Configurable autosaving
+- Snippet class methods enhanced
 
 #### Patches
 - Storage delete fix
-- cleaned up code corpses
+- Cleaned up code corpses
 
 
 ---
@@ -25,12 +26,10 @@
 
 #### Features
 - Snippet Stats
-- Package config
 
 #### Improvements
 - Sorting snippets by usage count
 - major performance improvement
-- Snippet class methods enhanced
 - more significant notifications
 
 #### Patches

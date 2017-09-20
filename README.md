@@ -23,23 +23,11 @@ If stated, the commands can also be called through menus or via hotkey.
 This command creates a new snippet from the current selection in the current editor.
 You will be prompted for a snippet title.
 
-*Name in menus:*
-> "Create snippet from selection"
-
-*Predefined Hotkey:*
-> "Ctrl + Alt + O"
-
 ---
 
 #### **snippet-injector:update**
 This command updates an existing snippet's content to the current selection in the current editor.
 You will be prompted for choosing an existing snippet.
-
-*Name in menus:*
-> "Update existing snippet"
-
-*Predefined Hotkey:*
-> "Ctrl + Alt + U"
 
 ---
 
@@ -47,59 +35,11 @@ You will be prompted for choosing an existing snippet.
 This command injects a snippet to the current marker position(s).
 You will be prompted to choose a snippet from a list.
 
-*Name in menus:*
-> "Insert snippet"
-
-*Predefined Hotkey:*
-> "Ctrl + Alt + I"
-
 ---
 
 #### **snippet-injector:delete**
 This command deletes a snippet from the local storage.
 You will be prompted for the snippet name to delete.
-
-*Name in menus:*
-> "Delete snippet"
-
----
-
-#### **snippet-injector:toggledebug**
-This command toggles all debugging options for the package.
-Debug informations are logged in Atom's console.
-
-*Please notice that this command is just available through command palette!*
-
----
-
-#### **snippet-injector:import**
-This command imports previously exported data from an importable file format.
-The format is recognized automatically, the contained data gets parsed
-and the resulting snippets will be stored simultaneously.
-
-Since this command is part of the [IMEX module](HOWTO.md#using-the-imex-module), I recommend usage via main menu.
-
-*Name in menus:*
-> "Import Snippets"
-
----
-
-#### **snippet-injector:export-to-...**
-This command exports the local storage in the given file format.
-All snippets get parsed, based on the specific configuration and then are written into a user chosen file.
-
-Since this command is part of the [IMEX module](HOWTO.md#using-the-imex-module), I recommend usage via main menu.
-
-###### available formats:
-
-| Format      | Extension | Command                        | Importable | additional Infos                           |
-|------------:|-----------|--------------------------------|:----------:|--------------------------------------------|
-| Spreadsheet | .csv      | snippet-injector:export-to-csv | yes        | Files may look untidy, use it as recovery  |
-| Markdown    | .md       | snippet-injector:export-to-md  | no         | Human-readable, beautified                 |
-
-*Name in menus:*
-> "Export Snippets  ->  ..."
-
 
 ---
 
@@ -113,9 +53,12 @@ All external sources used within this package are subject to their licenses and 
 
 **This package uses the following libraries or contents:**
 
-- DEVICON | *The list icons in the snippet selection prompt use SVG data from DEVICON*
+- DEVICON
   - [Webpage](http://konpa.github.io/devicon/)
   - [Repository](https://github.com/konpa/devicon/)
 - jQuery
   - [Webpage](https://jquery.com/)
   - [Repository](https://github.com/jquery/jquery)
+- CSON package
+  - [NPM Page](https://www.npmjs.com/package/cson)
+  - [Repository](https://github.com/bevry/cson)
