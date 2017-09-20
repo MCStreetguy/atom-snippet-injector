@@ -20,6 +20,7 @@
 - Storage delete fix
 - Cleaned up code corpses
 - Temporarily removed IMEX module (due to fatal errors)
+- Insert search bug
 
 
 ---
