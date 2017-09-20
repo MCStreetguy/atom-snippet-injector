@@ -14,6 +14,7 @@
 - Configurable autosaving
 - Snippet class methods enhanced
 - Autosave notification can be disabled
+- Autoindent for snippet contents
 
 #### Patches
 - Storage delete fix
