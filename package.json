@@ -16,6 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^4.1.0"
+    "cson": "^4.1.0",
+    "strip-indent": "^2.0.0"
   }
 }
