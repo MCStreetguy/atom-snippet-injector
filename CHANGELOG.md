@@ -10,14 +10,15 @@
 - Package config
 
 #### Improvements
-- Temporarily disabled Imex module
 - Partially asynchroneous execution
 - Configurable autosaving
 - Snippet class methods enhanced
+- Autosave notification can be disabled
 
 #### Patches
 - Storage delete fix
 - Cleaned up code corpses
+- Temporarily removed IMEX module (due to fatal errors)
 
 
 ---
