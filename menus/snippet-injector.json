@@ -47,6 +47,21 @@
             {
               "label": "Delete Snippet",
               "command": "snippet-injector:delete"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "Export Storage",
+              "command": "snippet-injector:export-all"
+            },
+            {
+              "label": "Export Snippet(s)",
+              "command": "snippet-injector:export"
+            },
+            {
+              "label": "Import Snippet(s)",
+              "command": "snippet-injector:import"
             }
           ]
         }

@@ -30,7 +30,7 @@
   }
 }
 
-#search-prompt {
+#search-prompt, #search-multi-prompt {
   min-width: 500px;
 
   .title {
@@ -64,6 +64,11 @@
 
       &:first-of-type {
         border-top: 1px solid grey;
+      }
+
+      &.selected {
+        border: 1px solid #429D51;
+        box-shadow: inset 0 0 10px #429D51;
       }
     }
   }
