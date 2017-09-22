@@ -7,6 +7,7 @@
 #### Features
 - Atom snippets synchronization
 - Renewed Storage module
+- Renewed IMEX module
 - Package config
 
 #### Improvements
