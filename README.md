@@ -1,7 +1,7 @@
 # Atom Snippet Injector
 **An easy but powerful snippet management tool for Atom editor.**
 
-This atom package provides a JSON based snippet management and synchronization to Atoms integrated `snippets` package.
+This atom package provides a JSON based snippet management and synchronization to Atoms integrated snippet-module.
 It's easy and fast so you don't have to struggle with difficult UI's or file syntaxes or even worse, define the snippets manually.
 Check out the [Quick Start Guide](HOWTO.md#using-the-snippet-injector) for short instructions on how to use this package.
 Happy Coding :)
