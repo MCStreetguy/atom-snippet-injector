@@ -16,12 +16,16 @@
 - Snippet class methods enhanced
 - Autosave notification can be disabled
 - Autoindent for snippet contents
+- Added support for Atom's snippet placeholders
+- Added Fusion (TypoScript 2) & XML icons
 
 #### Patches
 - Storage delete fix
 - Cleaned up code corpses
 - Temporarily removed IMEX module (due to fatal errors)
 - Insert search bug
+- Snippet placeholder relacement fix
+- Export default filename generation
 
 
 ---
