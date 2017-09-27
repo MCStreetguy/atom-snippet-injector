@@ -18,6 +18,7 @@
 - Autoindent for snippet contents
 - Added support for Atom's snippet placeholders
 - Added Fusion (TypoScript 2) & XML icons
+- Configurable snippet autocomplete-keyword
 
 #### Patches
 - Storage delete fix
@@ -26,6 +27,7 @@
 - Insert search bug
 - Snippet placeholder relacement fix
 - Export default filename generation
+- Backslash treatment in snippet content
 
 
 ---
