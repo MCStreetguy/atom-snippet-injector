@@ -23,6 +23,18 @@
       {
         "type": "separator"
       }
+    ],
+    "atom-workspace": [
+      {
+        "type": "separator"
+      },
+      {
+        "label": "Delete Snippet",
+        "command": "snippet-injector:delete"
+      },
+      {
+        "type": "separator"
+      }
     ]
   },
   "menu": [
