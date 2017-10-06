@@ -12,23 +12,23 @@ All commands are available through the main application menu below `Packages` > 
 The context menu provides the [Delete](#deletion) command in the whole workspace while [creation]((#creation)), [insertion](#insertion) and [updating](#updating) is only available within a TextEditor instance.
 
 ### Creation
-To create a snippet, just mark all the text that shall be stored as snippet and run the `snippet-injector:create` command through command palette, context or main menu or hotkey. You will be prompted for a title for the snippet.   
+To create a snippet, just mark all the text that shall be stored as snippet and run the [`snippet-injector:create`](#snippet-injectorcreate) command through command palette, context or main menu or hotkey. You will be prompted for a title for the snippet.   
 Within this input field you may use some additional markers:   
 - All words starting with a hash (`#foo`) are treated as keywords and taken out of the actual title.   
 - A part of the title, wrapped in square brackets, defines the prefix that triggers the snippet in autocompletion. Only the brackets will be removed from the actual title.
 
 ### Insertion
-To insert a snippet, just place the cursor where you want it to appear and run the `snippet-injector:insert` command the way you prefer. You will be prompted to choose a snippet for insertion, also allowing you to search the list. In the search field you may use the following syntax:   
+To insert a snippet, just place the cursor where you want it to appear and run the [`snippet-injector:insert`](#snippet-injectorinsert) command the way you prefer. You will be prompted to choose a snippet for insertion, also allowing you to search the list. In the search field you may use the following syntax:   
 - Plain text searches the title of the snippets
 - A word starting with a hash (`#foo`) searches for keywords
 - A word starting with an at-sign (`@bar`) searches for author
 The options can be combined together. Snippets are filtered by full-text-search, meaning the order of the search keywords needs to be the same as in the title otherwise the Snippets won't match your search. (This will be improved soon.)
 
 ### Updating
-To update a snippets content, just mark all the text that shall be used as new content and run the `snippet-injector:update` command the way you prefer. You will be prompted to choose a snippet that shall be updated. This list is also searchable with the above mentioned options.
+To update a snippets content, just mark all the text that shall be used as new content and run the [`snippet-injector:update`](#snippet-injectorupdate) command the way you prefer. You will be prompted to choose a snippet that shall be updated. This list is also searchable with the above mentioned options.
 
 ### Deletion
-To delete a snippet, just run the `snippet-injector:delete` command the way you prefer. You will be prompted to choose a Snippet in a dropdown list. Before actually deleting a snippet you will be prompted a second time if you are sure.
+To delete a snippet, just run the [`snippet-injector:delete`](#snippet-injectordelete) command the way you prefer. You will be prompted to choose a Snippet in a dropdown list. Before actually deleting a snippet you will be prompted a second time if you are sure.
 
 ## Features
 
