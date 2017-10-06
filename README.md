@@ -22,6 +22,7 @@ To insert a snippet, just place the cursor where you want it to appear and run t
 - Plain text searches the title of the snippets   
 - A word starting with a hash (`#foo`) searches for keywords   
 - A word starting with an at-sign (`@bar`) searches for author   
+
 The options can be combined together. Snippets are filtered by full-text-search, meaning the order of the search keywords needs to be the same as in the title otherwise the Snippets won't match your search. (This will be improved soon.)
 
 ### Updating
