@@ -8,8 +8,8 @@ It's easy and fast so you don't have to struggle with difficult UI's or file syn
 Snippet Injector basically provides four functions for snippet management.
 [Create](#snippet-injectorcreate), [Insert](#snippet-injectorinsert), [Update](#snippet-injectorupdate) and [Delete](#snippet-injectordelete). They all do exactly what they are called, depending on your configuration, with some extra magic.
 
-All commands are available through the main application menu below `Packages` `Snippet Injector`.
-The context menu provides the delete command in the whole workspace while creation, insertion and updating is only available within a TextEditor.
+All commands are available through the main application menu below `Packages` > `Snippet Injector`.
+The context menu provides the [Delete](#snippet-injectordelete) command in the whole workspace while [creation]((#snippet-injectorcreate)), [insertion](#snippet-injectorinsert) and [updating](#snippet-injectorupdate) is only available within a TextEditor instance.
 
 ## Features
 
@@ -34,15 +34,16 @@ When enabled, you can mark snippets as shared, meaning they will be stored and s
 
 All snippets stored in the database can be used by everyone you give access to the server. That's why this is just an additional storage method, because you possibly don't want to share every snippet with others.
 
-/******************************************
-/*   Hier bitte mehr Anleitung einfügen   *
-/******************************************
+/******************************************   
+/*   Hier bitte mehr Anleitung einfügen   *   
+/******************************************   
+
+
+For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from beeing overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
 
 Whenever an error occurs you will be notified through Atom. If possible, there is an option for performing automated repair methods.
 
 ![example error notification](https://image.prntscr.com/image/xHqFsydzSw6R0byBhbWPaQ.png)
-
-For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from beeing overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
 
 **Use the `Fix Sync Problems` button on your own risk!**  The repair algorithm checks each local snippet for errors with database meta information and synchronization process and resets it's meta if needed. This results in the snippet being treated as unsynchronized and uploaded to the database as a whole new document, what fixes the most common errors.
 It may occur that snippet data gets duplicated.
