@@ -1,15 +1,34 @@
 # Atom Snippet Injector
 **An easy but powerful snippet management tool for Atom editor.**
 
-This atom package provides a JSON based, local snippet management, automated synchronization to Atom's integrated snippet-module and [database support](#database-support) for improved teamwork with consistent snippet access.
+This atom package provides a JSON based, local snippet management, [automated synchronization](#atom-sync) to Atom's integrated snippet-module and [database support](#database-support) for improved teamwork with consistent snippet access.
 It's easy and fast so you don't have to struggle with difficult UI's or file syntaxes or even worse, define the snippets manually.
 
 ## Introduction
 Snippet Injector basically provides four functions for snippet management.
-[Create](#snippet-injectorcreate), [Insert](#snippet-injectorinsert), [Update](#snippet-injectorupdate) and [Delete](#snippet-injectordelete). They all do exactly what they are called, depending on your configuration, with some extra magic.
+[Create](#creation), [Insert](#insertion), [Update](#updating) and [Delete](#deletion). They all do exactly what they are called, depending on your configuration, with some extra magic.
 
 All commands are available through the main application menu below `Packages` > `Snippet Injector`.
-The context menu provides the [Delete](#snippet-injectordelete) command in the whole workspace while [creation]((#snippet-injectorcreate)), [insertion](#snippet-injectorinsert) and [updating](#snippet-injectorupdate) is only available within a TextEditor instance.
+The context menu provides the [Delete](#deletion) command in the whole workspace while [creation]((#creation)), [insertion](#insertion) and [updating](#updating) is only available within a TextEditor instance.
+
+### Creation
+To create a snippet, just mark all the text that shall be stored as snippet and run the `snippet-injector:create` command through command palette, context or main menu or hotkey. You will be prompted for a title for the snippet.   
+Within this input field you may use some additional markers:   
+- All words starting with a hash (`#foo`) are treated as keywords and taken out of the actual title.   
+- A part of the title, wrapped in square brackets, defines the prefix that triggers the snippet in autocompletion. Only the brackets will be removed from the actual title.
+
+### Insertion
+To insert a snippet, just place the cursor where you want it to appear and run the `snippet-injector:insert` command the way you prefer. You will be prompted to choose a snippet for insertion, also allowing you to search the list. In the search field you may use the following syntax:   
+- Plain text searches the title of the snippets
+- A word starting with a hash (`#foo`) searches for keywords
+- A word starting with an at-sign (`@bar`) searches for author
+The options can be combined together. Snippets are filtered by full-text-search, meaning the order of the search keywords needs to be the same as in the title otherwise the Snippets won't match your search. (This will be improved soon.)
+
+### Updating
+To update a snippets content, just mark all the text that shall be used as new content and run the `snippet-injector:update` command the way you prefer. You will be prompted to choose a snippet that shall be updated. This list is also searchable with the above mentioned options.
+
+### Deletion
+To delete a snippet, just run the `snippet-injector:delete` command the way you prefer. You will be prompted to choose a Snippet in a dropdown list. Before actually deleting a snippet you will be prompted a second time if you are sure.
 
 ## Features
 
@@ -39,7 +58,7 @@ All snippets stored in the database can be used by everyone you give access to t
 /******************************************   
 
 
-For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from beeing overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
+For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from being overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
 
 Whenever an error occurs you will be notified through Atom. If possible, there is an option for performing automated repair methods.
 
@@ -56,49 +75,52 @@ It may occur that snippet data gets duplicated.
 The following commands are registered by Snippet Injector and can be accessed via the command palette.
 
 #### **snippet-injector:create**
-This command creates a new snippet from the current selection in the current editor.
+This command creates a new snippet from the current selection in the current editor.  
 You will be prompted for a snippet title.
 
 ---
 
 #### **snippet-injector:update**
-This command updates an existing snippet's content to the current selection in the current editor.
+This command updates an existing snippet's content to the current selection in the current editor.  
 You will be prompted for choosing an existing snippet.
 
 ---
 
 #### **snippet-injector:insert**
-This command injects a snippet to the current marker position(s).
+This command injects a snippet to the current marker position(s).  
 You will be prompted to choose a snippet from a list.
 
 ---
 
 #### **snippet-injector:delete**
-This command deletes a snippet from the local storage.
+This command deletes a snippet from the local storage.  
 You will be prompted for the snippet name to delete.
 
 ---
 
 #### **snippet-injector:export**
-This command exports one or more snippets to a readable JSON.
-*(intended to share snippets with others)*
+This command exports one or more snippets to a readable JSON.  
+*(intended to share snippets with others)*  
 You will be prompted for the snippets to export and the destination.
 
 ---
 
 #### **snippet-injector:export-all**
-This command exports the whole storage to a readable JSON.
-*(intended to use as backup)*
+This command exports the whole storage to a readable JSON.  
+*(intended to use as backup)*  
 You will be prompted for the export destination.
 
 ---
 
 #### **snippet-injector:import**
-This command imports snippets from a JSON-file into the storage.
+This command imports snippets from a JSON-file into the storage.  
 You will be prompted for one or more files to import.
 
 
 ---
+
+## License information
+This package is licensed under the [MIT License](LICENSE.md).
 
 ### External Sources
 ```
