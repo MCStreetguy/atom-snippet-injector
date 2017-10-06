@@ -19,9 +19,9 @@ Within this input field you may use some additional markers:
 
 ### Insertion
 To insert a snippet, just place the cursor where you want it to appear and run the [`snippet-injector:insert`](#snippet-injectorinsert) command the way you prefer. You will be prompted to choose a snippet for insertion, also allowing you to search the list. In the search field you may use the following syntax:   
-- Plain text searches the title of the snippets
-- A word starting with a hash (`#foo`) searches for keywords
-- A word starting with an at-sign (`@bar`) searches for author
+- Plain text searches the title of the snippets   
+- A word starting with a hash (`#foo`) searches for keywords   
+- A word starting with an at-sign (`@bar`) searches for author   
 The options can be combined together. Snippets are filtered by full-text-search, meaning the order of the search keywords needs to be the same as in the title otherwise the Snippets won't match your search. (This will be improved soon.)
 
 ### Updating
