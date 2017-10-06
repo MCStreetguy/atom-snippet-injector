@@ -1,10 +1,51 @@
 # Atom Snippet Injector
 **An easy but powerful snippet management tool for Atom editor.**
 
-This atom package provides a JSON based snippet management and synchronization to Atoms integrated snippet-module.
+This atom package provides a JSON based, local snippet management, automated synchronization to Atom's integrated snippet-module and [database support](#database-support) for improved teamwork with consistent snippet access.
 It's easy and fast so you don't have to struggle with difficult UI's or file syntaxes or even worse, define the snippets manually.
-Check out the [Quick Start Guide](HOWTO.md#using-the-snippet-injector) for short instructions on how to use this package.
-Happy Coding :)
+
+## Introduction
+Snippet Injector basically provides four functions for snippet management.
+[Create](#snippet-injectorcreate), [Insert](#snippet-injectorinsert), [Update](#snippet-injectorupdate) and [Delete](#snippet-injectordelete). They all do exactly what they are called, depending on your configuration, with some extra magic.
+
+All commands are available through the main application menu below `Packages` `Snippet Injector`.
+The context menu provides the delete command in the whole workspace while creation, insertion and updating is only available within a TextEditor.
+
+## Features
+
+### Atom-Sync
+You can enable synchronization with Atom's snippet module in the package config.
+
+![atom sync config option](https://image.prntscr.com/image/NlQPlp6fQGmLvA8FLkuilQ.png)
+
+When activated, all of your snippets will be synchronized with the `snippets.cson` file. Within this file you can define snippets for fast insertion in Atom. This feature is provided by the core-package `snippets`.  
+Writing a CSON file manually is laborious but Snippet Injector automatically generates the needed structure including language scopes and configurable keywords.
+
+When you get prompted for a snippet title you can wrap a part of it in square brackets. This will be used as keyword in autocompletion so you can give your snippets significant names without having to type all of it when inserting it.
+
+You can use [Atom's snippet tabstop syntax](http://flight-manual.atom.io/using-atom/sections/snippets/#snippet-format) in snippets. This functionality is only available when inserting through autocompletion. When inserting with the insert command the tabstop markers are stripped from the snippets content, leaving possible default values.
+
+### Database Support
+Snippet Injector supports [Apache CouchDB v2.1](http://couchdb.apache.org/) as additional storage.
+
+![couchdb config option](https://image.prntscr.com/image/WLz8O4VdTDCG4zLdAYQFIQ.png)
+
+When enabled, you can mark snippets as shared, meaning they will be stored and synchronized with the CouchDB Server. A database called `snippet-injector-data` will be created, if not already done. The options for authentication can be left empty if you don't need authentication for your server. (Snippet Injector currently only supports [Basic Authentication](http://docs.couchdb.org/en/2.1.0/api/server/authn.html#basic-authentication))
+
+All snippets stored in the database can be used by everyone you give access to the server. That's why this is just an additional storage method, because you possibly don't want to share every snippet with others.
+
+/******************************************
+/*   Hier bitte mehr Anleitung einfügen   *
+/******************************************
+
+Whenever an error occurs you will be notified through Atom. If possible, there is an option for performing automated repair methods.
+
+![example error notification](https://image.prntscr.com/image/xHqFsydzSw6R0byBhbWPaQ.png)
+
+For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from beeing overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
+
+**Use the `Fix Sync Problems` button on your own risk!**  The repair algorithm checks each local snippet for errors with database meta information and synchronization process and resets it's meta if needed. This results in the snippet being treated as unsynchronized and uploaded to the database as a whole new document, what fixes the most common errors.
+It may occur that snippet data gets duplicated.
 
 ---
 
@@ -12,7 +53,6 @@ Happy Coding :)
 
 ### Commands
 The following commands are registered by Snippet Injector and can be accessed via the command palette.
-If stated, the commands can also be called through menus or via hotkey.
 
 #### **snippet-injector:create**
 This command creates a new snippet from the current selection in the current editor.
