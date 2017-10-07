@@ -21,7 +21,7 @@ Within this input field you may use some additional markers:
 To insert a snippet, just place the cursor where you want it to appear and run the [`snippet-injector:insert`](#snippet-injectorinsert) command the way you prefer. You will be prompted to choose a snippet for insertion, also allowing you to search the list. In the search field you may use the following syntax:   
 - Plain text searches the title of the snippets   
 - A word starting with a hash (`#foo`) searches for keywords   
-- A word starting with an at-sign (`@bar`) searches for author   
+- A word starting with an at-sign (`@bar`) searches for author  
 
 The options can be combined together. Snippets are filtered by full-text-search, meaning the order of the search keywords needs to be the same as in the title otherwise the Snippets won't match your search. (This will be improved soon.)
 
@@ -53,11 +53,6 @@ Snippet Injector supports [Apache CouchDB v2.1](http://couchdb.apache.org/) as a
 When enabled, you can mark snippets as shared, meaning they will be stored and synchronized with the CouchDB Server. A database called `snippet-injector-data` will be created, if not already done. The options for authentication can be left empty if you don't need authentication for your server. (Snippet Injector currently only supports [Basic Authentication](http://docs.couchdb.org/en/2.1.0/api/server/authn.html#basic-authentication))
 
 All snippets stored in the database can be used by everyone you give access to the server. That's why this is just an additional storage method, because you possibly don't want to share every snippet with others.
-
-/******************************************   
-/*   Hier bitte mehr Anleitung einfügen   *   
-/******************************************   
-
 
 For security reasons, editing of snippets is only permitted to the respective owner, stored in the snippet. The author field is set to the current user account name when creating a snippet. This is no secure protection but prevents snippets from being overwritten or deleted by other users. You may insert a snippet, modify it to your needs and create a new one if needed.
 
