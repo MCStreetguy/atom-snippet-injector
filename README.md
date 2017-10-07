@@ -132,3 +132,7 @@ All external sources used within this package are subject to their licenses and 
 - jQuery
   - [Webpage](https://jquery.com/)
   - [Repository](https://github.com/jquery/jquery)
+- couchdb-wrapper
+  - [Repository](https://github.com/MCStreetguy/couchdb-wrapper)
+- CSON
+  - [Repository](https://github.com/bevry/cson)
