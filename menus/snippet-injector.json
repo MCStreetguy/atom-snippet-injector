@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-text-editor:not([mini])": [
       {
         "type": "separator"
       },
@@ -15,18 +15,6 @@
       {
         "label": "Insert Snippet",
         "command": "snippet-injector:insert"
-      },
-      {
-        "label": "Delete Snippet",
-        "command": "snippet-injector:delete"
-      },
-      {
-        "type": "separator"
-      }
-    ],
-    "atom-workspace": [
-      {
-        "type": "separator"
       },
       {
         "label": "Delete Snippet",
