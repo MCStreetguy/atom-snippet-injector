@@ -33,6 +33,18 @@ To delete a snippet, just run the [`snippet-injector:delete`](#snippet-injectord
 
 ## Features
 
+### Stats
+While using Snippet Injector it may occur that you collect a whole bunch of snippets. To keep the insertion prompt handy even with a lot of data, there are stats recorded for each snippet. Especially the usage count takes effect as it defines the order in which the snippets are listed so you got the mostly used ones at the top of the list and can access them faster.
+
+### Import / Export
+Through the main application menu below `Packages` > `Snippet Injector` you can access the import and export functionality.
+
+![import and export menu keys](https://image.prntscr.com/image/zaoDP_1lSKi-KMy1FuwRbg.png)
+
+The `Export Storage` option is intended to create backups of you local storage or if you want to migrate it to a new system.   
+The `Export Snippet(s)` option allows you to specify several snippets that you want to export. This was intended to share snippets with others without a database connection.   
+The `Import Snippet(s)` option obviously imports snippets from an export back in the storage.
+
 ### Atom-Sync
 You can enable synchronization with Atom's snippet module in the package config.
 
@@ -62,6 +74,8 @@ Whenever an error occurs you will be notified through Atom. If possible, there i
 
 **Use the `Fix Sync Problems` button on your own risk!**  The repair algorithm checks each local snippet for errors with database meta information and synchronization process and resets it's meta if needed. This results in the snippet being treated as unsynchronized and uploaded to the database as a whole new document, what fixes the most common errors.
 It may occur that snippet data gets duplicated.
+
+If this option is not available, normally there should be a `Retry` button instead. It appears that you just misspelled something in the config so whenever an error occurs, check your config and if the server is reachable then click `Retry`.
 
 ---
 
