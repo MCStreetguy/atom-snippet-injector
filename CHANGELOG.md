@@ -10,6 +10,9 @@
 #### Improvements
 - Configurable snippet autocomplete-keyword
 - Autoindentation for snippet contents
+- Better menu structure & selectors
+- Repair functionality for auto-solving database problems
+- Support for Atom's tabstop syntax in snippets
 
 #### Patches
 - Backslash treatment in snippet content
