@@ -112,6 +112,16 @@ You will be prompted for the export destination.
 This command imports snippets from a JSON-file into the storage.  
 You will be prompted for one or more files to import.
 
+---
+
+#### **snippet-injector:database-syncnow**
+Manually triggers database synchronization process.
+
+---
+
+#### **snippet-injector:storage-savenow**
+Manually triggers storage save to disk.
+
 
 ---
 
