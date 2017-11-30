@@ -23,7 +23,9 @@ To update a snippets content, just mark all the text that shall be used as new c
 ### Deletion
 To delete a snippet, just run the [`snippet-injector:delete`](#snippet-injectordelete) command the way you prefer. You will be prompted to choose a Snippet in a dropdown list. Before actually deleting a snippet you will be prompted a second time if you are sure.
 
-**Check the [Documentation](http://docs.mcstreetguy.de/Snippet Injector/) for more detailed information.**
+---
+
+**Check the (Documentation)[http://docs.mcstreetguy.de/Snippet Injector/] for more detailed information.**
 
 ---
 
