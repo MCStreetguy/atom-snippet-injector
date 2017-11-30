@@ -25,7 +25,7 @@ To delete a snippet, just run the [`snippet-injector:delete`](#snippet-injectord
 
 ---
 
-**Check the (Documentation)[http://docs.mcstreetguy.de/Snippet Injector/] for more detailed information.**
+**Check the (Documentation)[http://docs.mcstreetguy.de/Snippet%20Injector/] for more detailed information.**
 
 ---
 
