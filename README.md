@@ -1,6 +1,14 @@
 # Atom Snippet Injector
 **An easy but powerful snippet management tool for Atom editor.**
 
+----------
+
+**Please note** that this plugin has been discontinued and *does not work* with current versions of Atom.
+I currently don't have enough time to maintain it properly, even if I may rework it at some point of time.
+In that case you will be noticed here about it. Feel free to contribute on your own if you wish.
+
+----------
+
 This atom package provides a JSON based, local snippet management, [automated synchronization](#atom-sync) to Atom's integrated snippet-module and [database support](#database-support) for improved teamwork with consistent snippet access.
 It's easy and fast so you don't have to struggle with difficult UI's or file syntaxes or even worse, define the snippets manually.
 
@@ -22,10 +30,6 @@ To update a snippets content, just mark all the text that shall be used as new c
 
 ### Deletion
 To delete a snippet, just run the [`snippet-injector:delete`](#snippet-injectordelete) command the way you prefer. You will be prompted to choose a Snippet in a dropdown list. Before actually deleting a snippet you will be prompted a second time if you are sure.
-
----
-
-**Check the [Documentation](http://docs.mcstreetguy.de/Snippet%20Injector/) for more detailed information.**
 
 ---
 
